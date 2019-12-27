@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HatterActivity">
+
+    <Button
+
+        android:id="@+id/buttonColor"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonPicture"
+        android:layout_alignEnd="@+id/buttonPicture"
+
+        android:onClick="oncolor"
+        android:text="@string/buttonColor" />
+
+    <CheckBox
+
+
+        android:id="@+id/checkFeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerHat"
+        android:layout_alignStart="@+id/buttonPicture"
+        android:layout_alignEnd="@+id/buttonPicture"
+        android:checked="false"
+        android:onClick="onFeather"
+        android:text="@string/checkFeather" />
+
+    <Button
+
+        android:id="@+id/buttonPicture"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onPicture"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttomPicture" />
+
+    <Spinner
+        android:id="@+id/spinnerHat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonColor"
+        android:layout_alignStart="@+id/buttonColor"
+        android:layout_alignEnd="@+id/buttonPicture" />
+
+    <view
+        android:id="@+id/hatterView"
+        class="edu.msu.wangten3.tengjiaowangmadhatter.HatterView"
+        android:layout_toStartOf="@+id/buttonPicture"
+        android:layout_toLeftOf="@+id/buttonPicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/black" />
+
+</RelativeLayout>
