@@ -1,0 +1,31 @@
+
+Project 1 Submission
+
+Group Name:   Team 15
+
+When you have completed the project, complete the following form and include it with your project. Include this file as a text file in the folder with your project when you turn it in. 
+
+
+Member 1: Allison Lollo
+
+Responsiblity: put pieces in the double vector that holds the grid pieces. got pieces to rotate, got the pieces to snap correctly, got the open valve function to work, Got the leak graphic to show when the valve is opened. Helped with the timer.  Helped change the icon. Added toast message.
+
+
+
+Member 2: Tu A Le
+
+Responsiblity: Got the grid to scale and zoom. Worked on saving the state of the game. Got the pieces at the bottom to choose a new random pieces when a pieces gets used. Added the end game screen. Helped with moving to end game screen. Helped with the "about game" dialog box. Got screen to show current players turn.
+
+
+
+Member 3: James Im
+
+Responsiblity: Helped with the snapping of the pieces. Helped with changing the icon of the game.  When a piece is discarded, got a new piece to show at the bottom. Helped keep track of what pieces belong to what player. Helped with the conditions of the sides of the pieces. Added the "about game" button and dialog box. 
+
+
+
+Member 4 (if applicable): Tengjiao Wang
+
+Responsiblity: Worked on drawing the timer on the grid and keeping track of each players turn based on a timer. Got the line to draw on the timer to indicate how much time a players turn has left. When a turns time is up the piece they were using is discarded. Got the pieces to be able to drag. 
+
+

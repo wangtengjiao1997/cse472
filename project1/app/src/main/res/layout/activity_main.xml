@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/PlayerOneName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="false"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/PlayerOne" />
+
+    <EditText
+        android:id="@+id/PlayerTwoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PlayerOneName"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/PlayerTwo" />
+
+    <Spinner
+        android:id="@+id/SizeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PlayerTwoName"
+        android:layout_alignStart="@id/PlayerOneName"
+        android:layout_alignEnd="@id/PlayerOneName" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SizeSpinner"
+        android:layout_alignStart="@id/PlayerOneName"
+        android:layout_alignEnd="@id/PlayerTwoName"
+        android:onClick="onStartSteam"
+        android:text="@string/start" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonStart"
+        android:layout_alignStart="@id/PlayerOneName"
+        android:layout_alignEnd="@id/PlayerTwoName"
+        android:onClick="onStartAbout"
+        android:text="@string/aboutTitle" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imageView"
+        app:srcCompat="@drawable/splash" />
+
+</RelativeLayout>

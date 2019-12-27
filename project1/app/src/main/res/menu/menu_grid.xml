@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_install" android:title="@string/install"
+    android:orderInCategory="100"  />
+    <item android:id="@+id/menu_discard" android:title="@string/discard"
+        android:orderInCategory="100"  />
+    <item android:id="@+id/menu_open" android:title="@string/openvalve"
+        android:orderInCategory="100"  />
+    <item android:id="@+id/menu_surrender" android:title="@string/surrender"
+        android:orderInCategory="100"  />
+</menu>
