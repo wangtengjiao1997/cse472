@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="size_spinner">
+        <item >5x5</item>
+        <item >10x10</item>
+        <item >20x20</item>
+    </string-array>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SteamActivity">
+
+    <imjames.msu.edu.SteamView
+        android:id="@+id/steamView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="4">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/installButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/install" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/discardButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/installButton"-->
+<!--            android:text="@string/discard" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/valveButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignTop="@id/installButton"-->
+<!--            android:layout_toEndOf="@id/installButton"-->
+<!--            android:text="@string/openvalve" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/surrenderButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignTop="@id/discardButton"-->
+<!--            android:layout_alignEnd="@id/valveButton"-->
+<!--            android:layout_toEndOf="@id/discardButton"-->
+<!--            android:text="@string/surrender" />-->
+<!--    </RelativeLayout>-->
+
+</LinearLayout>

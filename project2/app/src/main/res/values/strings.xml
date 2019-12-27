@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">project1</string>
+    <string name="PlayerOne">Your Username</string>
+    <string name="PlayerTwo">Your Password</string>
+    <string name="start">Start</string>
+    <string name="imageView">splash</string>
+    <string name="install">Install</string>
+    <string name="discard">Discard</string>
+    <string name="openvalve">Open Valve</string>
+    <string name="surrender">Surrender</string>
+    <string name="about">How To Play</string>
+    <string name="aboutTitle">About</string>
+    <string name="new_game">New Game</string>
+    <string name="game_over">Game Over!</string>
+
+    <string name="instruction">
+        A player always has five available pipes. Each turn they drag a pipe onto the playing area.
+        They can rotate the pipe and put it where they want.
+        If they press connect,the pipe snaps to the nearest grid.
+        If it can\'t connect, a toast is presented saying the move is invalid.
+        A pipe can connect if two flanges meet.
+        Pipes can split and reconnect. There is a cap to close a pipe section.
+        Once connected, the turn ends. If they press discard, the pipe section they were dragging is discarded and the turn ends.
+        Surrender indicates that a player gives up. It should jump to a page that indicates the winner.
+        If player has a completely connected pipe, they press Open Valve to turn on the steam.
+        If there is a leak in their pipe, they lose. If they have successfully connected the source to the destination, they win.
+        Good luck!
+
+    </string>
+    <string name="no_install">Unable to install a piece</string>
+    <string name="winner">won the game!!</string>
+    <string name="username"> Username</string>
+    <string name="enter_username"> Enter Username</string>
+    <string name="password"> Password</string>
+    <string name="enter_password"> Enter Password</string>
+    <string name="confirm_password"> Confirm Password</string>
+    <string name="create_user"> Create User</string>
+    <string name="new_user"> New User</string>
+    <string name="create_new_user">Create new user</string>
+    <string name="remember_me">Remember me</string>
+    <string name="waiting">Waiting for Opponent...</string>
+</resources>

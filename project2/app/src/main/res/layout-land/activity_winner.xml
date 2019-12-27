@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WinnerActivity">
+
+    <TextView
+        android:id="@+id/gameOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:text="@string/game_over"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="36sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/winner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gameOver"
+        android:layout_alignStart="@id/gameOver"
+        android:layout_alignEnd="@id/gameOver"
+        android:gravity="center_horizontal"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/winner"
+        android:layout_centerHorizontal="true"
+        android:onClick="startNewGame"
+        android:text="@string/new_game" />
+</RelativeLayout>

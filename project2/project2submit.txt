@@ -1,0 +1,59 @@
+
+Project 2 Submission
+
+Group Name:   Team 15
+
+When you have completed the project, complete the following form and include it with your project. Include this file as a text file in the folder with your project when you turn it in. 
+
+For the Checkpoint, Describe a sequence of operations to create a new account and log onto the server:
+
+A functionality checklist will not be provided for the project. Treat this as you would a request from a client and identify what the client requires. 
+
+Member 1: Allison Lollo
+
+Responsiblity:
+Worked on the php classes that connect with our databases, got the game switching back and forth between players. got the game to end on both users devices when the game has ended. handled a user passively exiting the game
+
+
+
+Member 2: Tu A Le
+
+Responsiblity: 
+created the functions for loading and saving the game state xml and created functions in the cloud class that use use them. Created timer to check for turn.
+
+
+
+Member 3: James Joonkey Im
+
+Responsiblity: helped work on the php classes that connect to our database, created the git repository to store our php files. Worked on the conditions for allowing the creation of a new user.
+
+
+
+Member 4 (if applicable): Tengjiao Wang
+
+Responsiblity:
+Created the databases that store our game information. And provided the necessary queries for our php files to access them.
+
+
+Provide instructions on how to reach the first editing activity if the login button is not yet functional.
+
+User account the server-side communications is running under: lolloall@arctic.cse.msu.edu
+
+Paths to all server-side scripts: (Such as https://www.cse.msu.edu/~carter/project2/login.php).
+    "https://webdev.cse.msu.edu/~lolloall/cse476/project2/user-save.php";
+    "https://webdev.cse.msu.edu/~lolloall/cse476/project2/user-get.php";
+    "https://webdev.cse.msu.edu/~lolloall/cse476/project2/user-join.php";
+    "https://webdev.cse.msu.edu/~lolloall/cse476/project2/game-start.php";
+    "https://webdev.cse.msu.edu/~lolloall/cse476/project2/save-game.php";
+    "https://webdev.cse.msu.edu/~lolloall/cse476/project2/get-game.php";
+    "https://webdev.cse.msu.edu/~lolloall/cse476/project2/get-turn.php";
+    "https://webdev.cse.msu.edu/~lolloall/cse476/project2/end-game.php";
+    "https://webdev.cse.msu.edu/~lolloall/cse476/project2/check-win.php";
+    "https://webdev.cse.msu.edu/~lolloall/cse476/project2/get-end.php";
+    "https://webdev.cse.msu.edu/~lolloall/cse476/project2/update-end.php";
+
+Calls in the code to the server (provide a class name and function, or URL used for debugging):
+cloud.java has all functions used to communicate with the server side 
+
+
+
