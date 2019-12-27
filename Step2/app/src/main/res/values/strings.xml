@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Puzzle wangten3</string>
+    <string name="Start_Puzzle">Start Puzzle</string>
+    <string name="Welcome">Welcome to Tengjiaos\' Puzzle</string>
+    <string name="contentDescription">Picture of the solved puzzle</string>
+
+</resources>
